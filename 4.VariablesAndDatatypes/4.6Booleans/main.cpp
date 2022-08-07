@@ -1,7 +1,10 @@
 #include <iostream>
+//bool is a data type that store only two values 0 or 1/true ot falsa
+//8 bits in memory but can be packed more if memory constrained
+//cout<<std::boolalpha after which printing bool var will give true or false. and not 0 and 1
 
-
-int main(){
+int main()
+{
 
     bool red_light {false};
     bool green_light{true};
