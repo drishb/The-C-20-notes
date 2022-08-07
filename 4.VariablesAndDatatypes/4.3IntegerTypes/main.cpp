@@ -2,9 +2,9 @@
 
 
 int main(){
-
+/*3 types of initialization-braced{}, functional(), assignment= */
     //Braced initializers
-    /*
+    
     //Variable may contain random garbage value . WARNING
     int elephant_count;
     
@@ -20,20 +20,20 @@ int main(){
     //
     //int new_number{doesnt_exist};
 
-   // int narrowing_conversion {2.9};//Compiler error
+   // int narrowing_conversion {2.9}; //Compiler error
 
     std::cout << "Elephant count : " << elephant_count << std::endl;
     std::cout << "Lion count : " << lion_count << std::endl;
     std::cout << "Dog count : " << dog_count << std::endl;
     std::cout << "Cat count : " << cat_count << std::endl;
     std::cout << "Domesticated animal count : " << domesticated_animals << std::endl;
-   */
+   
 
 
 
 
    //Functional Initialization
-   /*
+   
     int apple_count(5);
     int orange_count(10);
     int fruit_count (apple_count + orange_count);
@@ -47,7 +47,7 @@ int main(){
     std::cout << "Orange count : " << orange_count << std::endl;
     std::cout << "Fruit count : " << fruit_count << std::endl;
     std::cout << "Narrowing conversion : " << narrowing_conversion_functional << std::endl;//Will loose info
-    */
+    
 
 
    //Assignment notation
