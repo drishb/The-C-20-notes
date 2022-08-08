@@ -1,5 +1,5 @@
 #include <iostream>
-
+//in auto, if incompatible value put in a var then the compiler will instead put in a garbage value
 int main(){
 
 	int var1{123}; // Declare and initialize
