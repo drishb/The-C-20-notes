@@ -1,6 +1,8 @@
 #include <iostream>
 
+/*auto is keyword, type deduction, but after that try not to add a incompatible value as compiler will give error
 
+*/
 int main(){
 
 	auto var1 {12};
